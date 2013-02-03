@@ -75,7 +75,7 @@ Class JCDOnline {
 	
 	private function encrypt($str, $key)
 	{
-		# make sure you pad 8 bytes
+	    # make sure you pad 8 bytes
 	    $block = mcrypt_get_block_size('tripledes', 'ctr');
 	    $pad = $block - (strlen($str) % $block);
 	    $str .= str_repeat(chr($pad), $pad);
