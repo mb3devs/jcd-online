@@ -14,3 +14,5 @@ Use
 
   echo '<a href="'.$url_link.'">Access JCD Online</a>';
 ```
+
+Copyright &copy; 2013 - <a href="http://www.moonbase3.com" target="_blank">MoonBase3.com</a>
