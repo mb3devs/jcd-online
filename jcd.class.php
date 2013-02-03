@@ -32,7 +32,7 @@
 
 Class JCDOnline {
 
-  public $hostName = 'www.yourdomain.com'; # your hostname (usually your website)
+  	public $hostName = 'www.yourdomain.com'; # your hostname (usually your website)
 	public $societyID = 0; # supplied by JCD
 	public $encryptKey = ''; # supplied by JCD
 	public $memberLevel = 'memberaccess'; # this is a default supplied by JCD Online
